@@ -9,13 +9,40 @@ var articleOne= {
     title: 'ArticleOne | Preetigr',
     heading: 'My Article',
     content: ` <p>
-                i love travelling..........
-                <p>
-                i am a travel freak
-                </p>
-    </p>`
+                        hi!!
+                        </p>
+                        <li>
+                            abot myself
+                        </li>
+                        <ol>
+                            I love travelling..
+                        </ol>`
     
 };
+
+var htmlTemplate= `<html>
+            <head>
+                <title>
+                    Article One
+                </title>
+                <link href="/ui/style.css" rel="stylesheet" />
+                
+            </head>
+            <body>
+               <div class="container" >
+                <div>
+                    <h1>
+                        My Article..
+                    </h1>
+                    <div>
+                    ${content}
+                    </div>
+                </div>
+                </div>
+            </body>
+          </html>
+`;
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
