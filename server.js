@@ -20,6 +20,10 @@ var articleOne= {
     
 };
 
+function createTemplate(data) {
+    var title= data.title;
+    var heading= data.heading;
+    var content= data.content;
 var htmlTemplate= `<html>
             <head>
                 <title>
@@ -42,6 +46,7 @@ var htmlTemplate= `<html>
             </body>
           </html>
 `;
+}
 
 
 app.get('/', function (req, res) {
