@@ -44,6 +44,7 @@ var htmlTemplate= `<html>
             </body>
           </html>
 `;
+return htmlTemplate;
 }
 
 
