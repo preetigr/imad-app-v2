@@ -23,7 +23,7 @@ var articleOne= {
 var htmlTemplate= `<html>
             <head>
                 <title>
-                    Article One
+                    ${title}
                 </title>
                 <link href="/ui/style.css" rel="stylesheet" />
                 
