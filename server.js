@@ -5,6 +5,18 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var articleOne= {
+    title: 'ArticleOne | Preetigr',
+    heading: 'My Article',
+    content: ` <p>
+                i love travelling..........
+                <p>
+                i am a travel freak
+                </p>
+    </p>`
+    
+};
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
