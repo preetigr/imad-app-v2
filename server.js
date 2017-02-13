@@ -10,9 +10,11 @@ var articleOne= {
     heading: 'My Article..',
     content: ` <p>
                         hi!!
-                       
+                        </p>
+                       <p>
                             abot myself
-                       
+                       </p>
+                       <p>
                             I love travelling..
                         </p>`
     
