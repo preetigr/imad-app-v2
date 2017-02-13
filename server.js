@@ -13,7 +13,7 @@ var articles= {
                             hi!!
                             </p>
                            <p>
-                                abot myself
+                                abot myself..
                            </p>
                            <p>
                                 I love travelling..
