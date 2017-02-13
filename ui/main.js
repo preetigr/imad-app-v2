@@ -1,6 +1,6 @@
 console.log('Loaded!');
-var element= document.getElementById('main-text');
-element.innerHTML='BON JOUR';
+var element = document.getElementById('main-text');
+element.innerHTML= 'BON JOUR';
 
 var img= document.getElementById('madi');
 img.onclick= function () {
