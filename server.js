@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var articleOne= {
     title: 'ArticleOne | Preetigr',
-    heading: 'My Article',
+    heading: 'My Article..',
     content: ` <p>
                         hi!!
                         </p>
@@ -32,7 +32,7 @@ var htmlTemplate= `<html>
                <div class="container" >
                 <div>
                     <h1>
-                        My Article..
+                       ${heading}
                     </h1>
                     <div>
                     ${content}
