@@ -1,4 +1,5 @@
 var button = document.getElementById('counter');
+var counter = 0;
 button.onclick = function () {
     var req = new XMLHttpRequest();
     request.onreadystatechange = function() {
