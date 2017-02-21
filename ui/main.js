@@ -15,8 +15,7 @@ button.onclick = function () {
   request.send(null);  
 };
 
-var nameinput = document.getElementById('name');
-var names = nameInput.value;
+
 var submit = document.getElementById('submit_btn');
 submit.onclick = function () {
     
@@ -37,6 +36,9 @@ submit.onclick = function () {
                
             }
         };
+        
+        var nameinput = document.getElementById('name');
+var name = nameInput.value;
 
     request.open('GET', 'http//:preetigr.imad.hasura-app.io/submit-name?name=' + name, true);
   request.send(null);  
